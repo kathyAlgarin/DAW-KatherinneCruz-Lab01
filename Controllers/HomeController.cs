@@ -8,7 +8,7 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
-        ViewBag.Nombre = "Katherinne Jeantte Cruz Algarin";
+        ViewBag.Nombre = "Katherinne Jeannette Cruz Algarin";
         ViewBag.Carrera = "Ingeniería en Desarrollo de Software";
         ViewBag.Asignatura = "Desarrollo Multiplataforma de Aplicaciones Web";
 

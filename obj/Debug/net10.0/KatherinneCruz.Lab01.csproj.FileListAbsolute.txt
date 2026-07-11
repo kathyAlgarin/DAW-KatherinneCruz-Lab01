@@ -96,3 +96,4 @@ C:\Users\kathy\Desktop\Ciclo8\DesarrolloMultiplataformaAplicaciones\Semana1\Kath
 C:\Users\kathy\Desktop\Ciclo8\DesarrolloMultiplataformaAplicaciones\Semana1\KatherinneCruz.Lab01\obj\Debug\net10.0\KatherinneCruz.Lab01.pdb
 C:\Users\kathy\Desktop\Ciclo8\DesarrolloMultiplataformaAplicaciones\Semana1\KatherinneCruz.Lab01\obj\Debug\net10.0\KatherinneCruz.Lab01.genruntimeconfig.cache
 C:\Users\kathy\Desktop\Ciclo8\DesarrolloMultiplataformaAplicaciones\Semana1\KatherinneCruz.Lab01\obj\Debug\net10.0\ref\KatherinneCruz.Lab01.dll
+C:\Users\kathy\Desktop\Ciclo8\DesarrolloMultiplataformaAplicaciones\Semana1\KatherinneCruz.Lab01\obj\Debug\net10.0\KatherinneCruz.Lab01.sourcelink.json

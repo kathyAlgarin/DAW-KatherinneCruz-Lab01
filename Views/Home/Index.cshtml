@@ -8,13 +8,13 @@
         <h1 class="display-4 fw-bold">Laboratorio 01 </h1>
         <p class="lead">Mi primera aplicación ASP.NET Core MVC</p>
         <span class="px-3 py-2">
-            @DateTime.Now.ToString("dd/MM/yyyy")
+            @DateTime.Now.ToString("dd/MM/yyyy  HH:mm:ss")
         </span>
     </div>
 
     <div class="row justify-content-center mb-5">
         <div class="col-md-6">
-            <div class="card border-black">
+            <div class="card shadow">
                 <h3 class="text-center m-2">Bienvenido</h3>
                 <div class="card-body text-center">
                     <h3 class="card-title mb-3">@ViewBag.Nombre</h3>
@@ -24,6 +24,19 @@
                     <a href="#hobbies" class="btn btn-primary mt-3">Mis hobbies</a>
                 </div>
                 
+            </div>
+        </div>
+
+        <div class="row justify-content-center mb-5 mt-5">
+            <div class="col-md-8">
+                <h2 class="mb-3 text-center">Sobre mí</h2>
+                <p class="fs-5 text-center">
+                    Me gustan las actividades al aire libre, sobre todo subir montañas y visitar lugares rodeados de naturaleza.
+                    Aunque me gustan mucho ese tipo de actividades usualmente en relacion con los ríos o las cascadas me da un poco de nervio por lo que
+                    pueda haber dentro del agua, sin embargo, eso no me quita las ganas de seguir buscando lugares cerca de la
+                    naturaleza para disfrutar y desconectarme un rato.
+                    Me gustan mucho los planes que son tranquilos pero divertidos como estar en casa con amigos o afuera de casa haciendo actividades que sirvan de distraccion como armar rompecabezas, videojuegos, etc.
+                </p>
             </div>
         </div>
 
