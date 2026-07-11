@@ -1,0 +1,65 @@
+﻿@using System.Globalization
+@{
+    ViewData["Title"] = "Bienvenida";
+}
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">Laboratorio 01 </h1>
+        <p class="lead">Mi primera aplicación ASP.NET Core MVC</p>
+        <span class="px-3 py-2">
+            @DateTime.Now.ToString("dd/MM/yyyy")
+        </span>
+    </div>
+
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-6">
+            <div class="card border-black">
+                <h3 class="text-center m-2">Bienvenido</h3>
+                <div class="card-body text-center">
+                    <h3 class="card-title mb-3">@ViewBag.Nombre</h3>
+                    <p class="card-text mb-1"><strong>Carrera:</strong> @ViewBag.Carrera</p>
+                    <p class="card-text mb-3"><strong>Asignatura:</strong> @ViewBag.Asignatura</p>
+                    <img src="~/images/foto-katherinne.jpg" class="card-img-top img-fluid" width="300" style="max-height: 350px; object-fit: cover;" alt="Foto">
+                    <a href="#hobbies" class="btn btn-primary mt-3">Mis hobbies</a>
+                </div>
+                
+            </div>
+        </div>
+
+    <!-- hbbies -->
+    <div id="hobbies" class="mb-4">
+        <h2 class="text-center mb-4 mt-4">Mis Hobbies</h2>
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 text-center shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title mt-2">VideoJuegos</h5>
+                        <p class="card-text small text-muted">Jugar videojuegos es una de mis formas favoritas de relajarme.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 text-center shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title mt-2">Tiendas chinas</h5>
+                        <p class="card-text small text-muted">Me encanta recorrer estas tiendas en mi ciudad buscando cositas curiosas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 text-center shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title mt-2">Senderismo</h5>
+                        <p class="card-text small text-muted">Subir montañas y explorar senderos naturales es de mis actividades favoritas.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
